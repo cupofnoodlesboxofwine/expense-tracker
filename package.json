@@ -7,7 +7,7 @@
     "start": "node server",
     "server": "nodemon server",
     "client": "npm start --prefix client",
-    "clientBuild": "npm build --prefix client",
+    "clientBuild": "npm run build --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "netlify": "concurrently \"npm run start\" \"npm run clientBuild\""
 
